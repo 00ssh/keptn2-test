@@ -10,7 +10,7 @@ objectives:
       - criteria:
           - "<120"
     weight: 1
-  - slo: "http_requests"
+  - sli: "http_requests"
     key_sli: false
     pass:
       - criteria:
