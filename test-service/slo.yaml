@@ -8,7 +8,7 @@ objectives:
     key_sli: false
     pass:
       - criteria:
-          - "<0"
+          - "<120"
     weight: 1
 total_score:
   pass: "90%"
