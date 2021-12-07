@@ -1,0 +1,4 @@
+---
+spec_version: '1.0'
+indicators:
+  error_rate: rate(meteoservice_http_5xx_errors_total{job="$SERVICE-$PROJECT-$STAGE"}[$DURATION_SECONDS]) / rate(meteoservice_api_paths_requests_total{endpoint="/WeatherForecast",job="$SERVICE-$PROJECT-$STAGE"}[$DURATION_SECONDS])
